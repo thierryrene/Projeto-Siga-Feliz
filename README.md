@@ -5,7 +5,7 @@
 
 <h3>PROJETO: RESERVA	DE	PASSAGENS</h3>
 
-<h3>DESCRIÇÃO	DO	PROJETO</3>
+<h3>DESCRIÇÃO	DO	PROJETO</h3>
 
 </br>A Empresa de ônibus “Siga Feliz” precisa de um sistema para realizar o controle de passagens
 vendidas. Sabe-se que um ônibus possui 48 lugares, sendo 24 janela e 24 corredor. Faça um
@@ -26,19 +26,19 @@ programa deverá apresentar um menu com as seguintes opções:</br>
 </br>Quando a opção escolhida for 1 - VENDER PASSAGEM, deverá ser perguntado qual é o
 número da poltrona desejada. Caso o número da poltrona esteja livre, solicitar se o usuário
 deseja janela (J) ou corredor (C). Dadas essas duas entradas, o programa deverá, então,
-emitir uma das seguintes mensagens (Ver item restrições):
+emitir uma das seguintes mensagens (Ver item restrições):</br>
 
 <ul>
 <li>• VENDA EFETIVADA – se a poltrona solicitada estiver livre! Ao efetivar a venda o
 programa deve marcar a poltrona como ocupada. Dado o exemplo da figura 1, se o
 usuário escolher a poltrona 1 na janela, emitir a mensagem “venda efetivada”, marcar
 a poltrona como ocupada e retornar ao menu principal.</li>
-
+</br>
 <li>• POLTRONA OCUPADA – se a poltrona solicitada não estiver disponível para venda!</li>
 
 </br>Se a poltrona 4 no corredor estiver vendida, Se o usuário quiser comprar a poltrona 4 no corredor,
 deve-se emitir a mensagem “poltrona ocupada” e retornar ao menu principal.</br>
-
+</br>
 <li>• ÔNIBUS LOTADO – quando todas as poltronas já estiverem ocupadas.</li>
 </ul>
 
@@ -73,7 +73,7 @@ tanto, utilizar a instrução: System.exit(0).
 
 </br>A execução do programa deve finalizar somente quando o usuário escolher a opção ENCERRAR.
 
-<h3>RESTRIÇÕES<h3>
+<h3>RESTRIÇÕES</h3>
 Para o item 1 do menu (Vender Passagem) - O usuário deve informar o número da
 poltrona entre 1 e 24. O algoritmo deve validar esse número. Caso o usuário digite um
 número inválido uma mensagem de erro dever ser informada e o número da poltrona deve
