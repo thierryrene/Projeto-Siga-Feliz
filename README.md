@@ -1,11 +1,11 @@
 
 
 # Projeto-Siga-Feliz
-<h2>Código fonte JAVA  - Venda de Passagens</h2>
+Código fonte JAVA  - Venda de Passagens
 
-<h3>PROJETO: RESERVA	DE	PASSAGENS</h3>
+PROJETO: RESERVA	DE	PASSAGENS
 
-<h3>DESCRIÇÃO	DO	PROJETO</h3>
+DESCRIÇÃO	DO	PROJETO
 
 </br>A Empresa de ônibus “Siga Feliz” precisa de um sistema para realizar o controle de passagens
 vendidas. Sabe-se que um ônibus possui 48 lugares, sendo 24 janela e 24 corredor. Faça um
