@@ -54,7 +54,7 @@ public class SigaFeliz {
             System.out.println("Qual o numero da poltrona desejado de (1 a 24)?");
             while (!entrada.hasNextByte())
             {
-                System.out.println("Valor inválido.! Qual o numero da poltrona desejado de (1 a 24)?");
+                System.out.println("Valor inválido! Qual o numero da poltrona desejado de (1 a 24)?");
                 entrada.nextLine();
             }
             poltrona = entrada.nextByte();
@@ -92,7 +92,7 @@ public class SigaFeliz {
                 J[poltrona-1] = 1;
             }
             System.out.println("\n=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=");
-            System.out.println(" Venda efetuada com sucesso:  Poltrona: " + poltrona + (tipo.equalsIgnoreCase("C") ? "Corredor" : "Janela"));
+            System.out.println(" Venda efetuada com sucesso:  Poltrona " + poltrona + (tipo.equalsIgnoreCase("C") ? " Corredor" : " Janela"));
             System.out.println("=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=\n");
         }
     }
