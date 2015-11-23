@@ -4,7 +4,7 @@ import java.util.Scanner;
 /**
  * Eliseu Netto
  * Luis Felipe Assumpção Fleury - RA 20748214 
- * Thierry
+ * Thierry Rene dos Santos Matos - RA 20751982
  * William 
  */
 public class SigaFeliz {
